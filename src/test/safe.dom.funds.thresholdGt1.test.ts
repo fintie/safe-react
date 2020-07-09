@@ -17,7 +17,7 @@ import { APPROVE_TX_MODAL_SUBMIT_BTN_TEST_ID } from 'src/routes/safe/components/
 
 afterEach(resetTestAccount)
 
-describe('DOM > Feature > Sending Funds', () => {
+describe.skip('DOM > Feature > Sending Funds', () => {
   let store
   let safeAddress
   let accounts

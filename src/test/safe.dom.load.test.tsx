@@ -42,7 +42,7 @@ const renderLoadSafe = async (localStore) => {
   )
 }
 
-describe('DOM > Feature > LOAD a Safe', () => {
+describe.skip('DOM > Feature > LOAD a Safe', () => {
   it('load correctly a created Safe', async () => {
     const store = aNewStore()
     const address = await aMinedSafe(store)

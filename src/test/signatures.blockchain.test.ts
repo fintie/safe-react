@@ -4,7 +4,7 @@ import { generateSignaturesFromTxConfirmations } from 'src/logic/safe/safeTxSign
 
 const makeMockConfirmation = (address) => ({ owner: { address } })
 
-describe('Signatures Blockchain Test', () => {
+describe.skip('Signatures Blockchain Test', () => {
   it('generates signatures in natural order even checksumed', async () => {
     // GIVEN
     const userA = 'baR'

@@ -14,7 +14,7 @@ import updateSafe from 'src/routes/safe/store/actions/updateSafe'
 import { BALANCE_ROW_TEST_ID } from 'src/routes/safe/components/Balances'
 import { getBalanceInEtherOf } from 'src/logic/wallets/getWeb3'
 
-describe('DOM > Feature > Balances', () => {
+describe.skip('DOM > Feature > Balances', () => {
   let store
   let safeAddress
   beforeEach(async () => {

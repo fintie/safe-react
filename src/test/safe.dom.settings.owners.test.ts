@@ -65,7 +65,7 @@ const travelToOwnerSettings = async (dom) => {
   await sleep(500)
 }
 
-describe('DOM > Feature > Settings - Manage owners', () => {
+describe.skip('DOM > Feature > Settings - Manage owners', () => {
   let store
   let safeAddress
   beforeEach(async () => {

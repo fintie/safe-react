@@ -120,7 +120,7 @@ const aDeployedSafe = async (specificStore, threshold = 1, numOwners = 1) => {
   return safeAddress
 }
 
-describe('DOM > Feature > CREATE a Safe', () => {
+describe.skip('DOM > Feature > CREATE a Safe', () => {
   it('fills correctly the Safe form with 4 owners and 4 threshold and creates a Safe', async () => {
     const owners = 4
     const threshold = 4

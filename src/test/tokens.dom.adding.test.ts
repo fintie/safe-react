@@ -32,7 +32,7 @@ afterAll(() => {
   console.error = originalError
 })
 
-describe('DOM > Feature > Add custom ERC 20 Tokens', () => {
+describe.skip('DOM > Feature > Add custom ERC 20 Tokens', () => {
   let web3
   let accounts
   let erc20Token

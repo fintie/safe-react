@@ -7,7 +7,7 @@ import '@testing-library/jest-dom/extend-expect'
 import { SETTINGS_TAB_BTN_TEST_ID, SAFE_VIEW_NAME_HEADING_TEST_ID } from 'src/routes/safe/components/Layout'
 import { SAFE_NAME_INPUT_TEST_ID, SAFE_NAME_SUBMIT_BTN_TEST_ID } from 'src/routes/safe/components/Settings/SafeDetails'
 
-describe('DOM > Feature > Settings - Name', () => {
+describe.skip('DOM > Feature > Settings - Name', () => {
   let store
   let safeAddress
   beforeEach(async () => {

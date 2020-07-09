@@ -14,7 +14,7 @@ import { makeToken } from 'src/logic/tokens/store/model/token'
 import '@testing-library/jest-dom/extend-expect'
 import { getActiveTokens } from 'src/logic/tokens/utils/tokensStorage'
 
-describe('DOM > Feature > Enable and disable default tokens', () => {
+describe.skip('DOM > Feature > Enable and disable default tokens', () => {
   let web3
   let accounts
   let firstErc20Token
