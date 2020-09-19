@@ -1,0 +1,7 @@
+{
+    "name": "ngwallet",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }

@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.ngwallet",
+  "appName": "ngwallet",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}
