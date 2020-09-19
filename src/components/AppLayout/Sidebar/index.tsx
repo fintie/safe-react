@@ -77,12 +77,12 @@ const Sidebar = ({
         </>
       ) : null}
 
-      <HelpContainer>
+      {/* <HelpContainer>
         <StyledDivider />
-        <HelpCenterLink href="https://help.gnosis-safe.io/en/" target="_blank" title="Help Center of Gnosis Safe">
+        <HelpCenterLink href="http://nextgenius.com.au/" target="_blank" title="Help Center of NetGenius">
           <IconText text="HELP CENTER" iconSize="md" textSize="md" color="placeHolder" iconType="question" />
         </HelpCenterLink>
-      </HelpContainer>
+      </HelpContainer> */}
     </>
   )
 }

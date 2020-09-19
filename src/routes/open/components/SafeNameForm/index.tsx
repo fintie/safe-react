@@ -32,7 +32,7 @@ const SafeName = ({ classes, safeName }) => (
   <>
     <Block margin="lg">
       <Paragraph color="primary" noMargin size="md">
-        You are about to create a new Gnosis Safe wallet with one or more owners. First, let&apos;s give your new wallet
+        You are about to create a new NextGenius Wallet with one or more owners. First, let&apos;s give your new wallet
         a name. This name is only stored locally and will never be shared with Gnosis or any third parties.
       </Paragraph>
     </Block>

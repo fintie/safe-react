@@ -36,8 +36,8 @@ const useStyles = makeStyles({
   },
 })
 
-export const SAFE_INSTANCE_ERROR = 'Address given is not a Safe instance'
-export const SAFE_MASTERCOPY_ERROR = 'Mastercopy used by this Safe is not the same'
+export const SAFE_INSTANCE_ERROR = 'Address given is not an Account instance'
+export const SAFE_MASTERCOPY_ERROR = 'Mastercopy used by this Account is not the same'
 
 // In case of an error here, it will be swallowed by final-form
 // So if you're experiencing any strang behaviours like freeze or hanging
@@ -94,10 +94,10 @@ const DetailsForm = ({ errors, form }: DetailsFormProps): React.ReactElement => 
     <>
       <Block margin="md">
         <Paragraph color="primary" noMargin size="md">
-          You are about to load an existing Gnosis Safe. First, choose a name and enter the Safe address. The name is
+          You are about to load an existing NG Account. First, choose a name and enter the Account address. The name is
           only stored locally and will never be shared with Gnosis or any third parties.
           <br />
-          Your connected wallet does not have to be the owner of this Safe. In this case, the interface will provide you
+          Your connected wallet does not have to be the owner of this Account. In this case, the interface will provide you
           a read-only view.
         </Paragraph>
       </Block>
@@ -106,8 +106,8 @@ const DetailsForm = ({ errors, form }: DetailsFormProps): React.ReactElement => 
           <Field
             component={TextField}
             name={FIELD_LOAD_NAME}
-            placeholder="Name of the Safe"
-            text="Safe name"
+            placeholder="Name of the Account"
+            text="Account name"
             type="text"
             validate={required}
             testId="load-safe-name-field"
@@ -130,8 +130,8 @@ const DetailsForm = ({ errors, form }: DetailsFormProps): React.ReactElement => 
               }
             }
             name={FIELD_LOAD_ADDRESS}
-            placeholder="Safe Address*"
-            text="Safe Address"
+            placeholder="Account Address*"
+            text="Account Address"
             testId="load-safe-address-field"
           />
         </Col>
