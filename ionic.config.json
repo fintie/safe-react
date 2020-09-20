@@ -1,5 +1,5 @@
 {
-    "name": "ngwallet",
+    "name": "NG Wallet",
     "integrations": {
       "capacitor": {}
     },
