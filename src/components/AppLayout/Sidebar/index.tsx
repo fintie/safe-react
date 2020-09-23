@@ -69,21 +69,20 @@ const Sidebar = ({
       onNewTransactionClick={onNewTransactionClick}
     />
 
-      {items.length ? (
-        <>
-          <StyledDivider />
-          <List items={items} />
-        </>
-      ) : null}
-
-      {/* <HelpContainer>
+    {items.length ? (
+      <>
         <StyledDivider />
-        <HelpCenterLink href="http://nextgenius.com.au/" target="_blank" title="Help Center of NetGenius">
-          <IconText text="HELP CENTER" iconSize="md" textSize="md" color="placeHolder" iconType="question" />
-        </HelpCenterLink>
-      </HelpContainer> */}
-    </>
-  )
-}
+        <List items={items} />
+      </>
+    ) : null}
+
+    <HelpContainer>
+      <StyledDivider />
+      <HelpCenterLink href="https://help.gnosis-safe.io/en/" target="_blank" title="Help Center of Gnosis Safe">
+        <IconText text="HELP CENTER" iconSize="md" textSize="md" color="placeHolder" iconType="question" />
+      </HelpCenterLink>
+    </HelpContainer>
+  </>
+)
 
 export default Sidebar
