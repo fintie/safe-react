@@ -28,7 +28,41 @@ const styles = createStyles({
   },
 })
 
-const useSafeNameStyles = makeStyles(styles)
+const SafeName = ({ classes, safeName }) => (
+  <>
+    <Block margin="lg">
+      <Paragraph color="primary" noMargin size="md">
+        You are about to create a new NextGenius Wallet with one or more owners. First, let&apos;s give your new wallet
+        a name. This name is only stored locally and will never be shared with Gnosis or any third parties.
+      </Paragraph>
+    </Block>
+    <Block className={classes.root} margin="lg">
+      <Field
+        component={TextField}
+        defaultValue={safeName}
+        name={FIELD_NAME}
+        placeholder="Name of the new Safe"
+        text="Safe name"
+        type="text"
+        validate={required}
+        testId="create-safe-name-field"
+      />
+    </Block>
+    <Block margin="lg">
+      <Paragraph className={classes.links} color="primary" noMargin size="md">
+        By continuing you consent to the{' '}
+        <a href="https://gnosis-safe.io/terms" rel="noopener noreferrer" target="_blank">
+          terms of use
+        </a>{' '}
+        and{' '}
+        <a href="https://gnosis-safe.io/privacy" rel="noopener noreferrer" target="_blank">
+          privacy policy
+        </a>
+        .
+      </Paragraph>
+    </Block>
+  </>
+)
 
 const SafeNameForm = ({ safeName }: { safeName: string }): React.ReactElement => {
   const classes = useSafeNameStyles()

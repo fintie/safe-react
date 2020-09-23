@@ -38,7 +38,7 @@ export const CreateSafe = ({ provider, size }: any) => (
     testId="create-new-safe-btn"
   >
     <Img alt="Safe" height={14} src={plus} />
-    <div style={buttonStyle}>Create new Safe</div>
+    <div style={buttonStyle}>Create new Account</div>
   </Button>
 )
 
@@ -70,10 +70,10 @@ const Welcome = ({ isOldMultisigMigration, provider }: any) => {
     </>
   ) : (
     <>
-      Gnosis Safe Multisig is the most secure way to manage crypto funds
+      NextGenius Multisig is the most secure way to manage crypto funds
       <br />
       collectively. It is an improvement of the Gnosis MultiSig, which is used by more than 3000 teams
-      <br /> and stores over $1B USD worth of digital assets. Gnosis Safe Multisig features a modular
+      <br /> and stores over $1B USD worth of digital assets. NextGenius Multisig features a modular
       <br /> design, formally verified smart contracts and vastly improved user experience.{' '}
     </>
   )
@@ -82,7 +82,7 @@ const Welcome = ({ isOldMultisigMigration, provider }: any) => {
       <Heading align="center" margin="lg" tag="h1" weight="bold">
         Welcome to
         <br />
-        Gnosis Safe Multisig
+        NextGenius Multisig
       </Heading>
       <Heading align="center" margin="xl" tag="h3">
         {headingText}

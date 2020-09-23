@@ -164,6 +164,8 @@
     ]
   },
   "dependencies": {
+    "@capacitor/core": "^2.4.1",
+    "@capacitor/ios": "^2.4.1",
     "@gnosis.pm/safe-apps-sdk": "0.4.0",
     "@gnosis.pm/safe-contracts": "1.1.1-dev.2",
     "@gnosis.pm/safe-react-components": "https://github.com/gnosis/safe-react-components.git#1bf397f",
@@ -231,6 +233,7 @@
     "web3-utils": "^1.2.11"
   },
   "devDependencies": {
+    "@capacitor/cli": "2.4.1",
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.19",

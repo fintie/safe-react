@@ -1,0 +1,17 @@
+{
+  "appId": "org.nextgenius.multisig",
+  "appName": "NG Wallet",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {},
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "showSpinner": true,
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#ffffff",
+      "backgroundColor": "#34ace0"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "NG Wallet",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }

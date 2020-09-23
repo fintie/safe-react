@@ -95,9 +95,9 @@ const Layout: React.FC<Props> = ({
     </GridSidebarWrapper>
     <GridBodyWrapper>
       <BodyWrapper>{children}</BodyWrapper>
-      <FooterWrapper>
+      {/* <FooterWrapper>
         <Footer />
-      </FooterWrapper>
+      </FooterWrapper> */}
     </GridBodyWrapper>
   </Grid>
 )
