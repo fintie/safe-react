@@ -1,0 +1,8 @@
+{
+    "appId": "org.nextgenius.multisig",
+    "appName": "NG Wallet",
+    "bundledWebRuntime": false,
+    "npmClient": "npm",
+    "webDir": "build",
+    "cordova": {}
+  }
